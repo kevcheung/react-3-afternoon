@@ -20,8 +20,8 @@ export default class Compose extends Component {
     this.setState({ text });
   }
 
-  createPost() {
-
+  createPost(text) {
+    this.setState({ text: '' });
   }
 
   render() {
